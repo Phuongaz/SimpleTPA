@@ -21,8 +21,7 @@ class SimpleTPA(PluginBase):
 
 	def send_request(self, player, target_name):
 		target = self.getServer().getPlayer(target_name)
-		if self.getServer().getPlayer(target_name) is not None:
-			target = self.getServer().getPlayer(target_name)
+		if target is not None:
 			target.sendMessage("player " + player.getName() + " wants to teleport to you\n /tpaccept to agree")
 			tpa_list[target_name] = player.getName()
 		else:
