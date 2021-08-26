@@ -11,7 +11,7 @@ tpa_list = {}
 class SimpleTPA(PluginBase):
 
 	def onEnable(self):
-		self.getServer().getLogger().info("SimpleTPA enable \n\n\n\n");
+		self.getServer().getLogger().info("SimpleTPA enable");
 	
 	def onCommand(self, sender, cmd, label, args):
 		if cmd.getName() == "tpa":
