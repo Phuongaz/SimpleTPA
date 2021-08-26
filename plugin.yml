@@ -1,0 +1,12 @@
+name: SimpleTPA
+main: SimpleTPA
+author: phuongaz
+version: 1.0
+api: ["1.0.0"]
+commands:
+  tpa:
+    description: "tpa command"
+    usage: "/tpa <name>"
+  tpaccept:
+    description: "tp accept"
+    usage: "/tpaccept"
